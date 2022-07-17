@@ -5,3 +5,5 @@ python -m venv --prompt=hellodjango venv
 pip install django
 
 python manage.py runserver
+
+python manage.py startapp warehouse

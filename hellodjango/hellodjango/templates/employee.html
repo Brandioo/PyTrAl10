@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Record</title>
+</head>
+<body>
+    <p>
+        <a href="{% url 'home' %}">Back to list</a>
+    </p>
+    <p>
+        <em>ID</em>: <b>{{ employee.id }}</b>
+    </p>
+    <p>
+        <em>Name</em>: <b>{{ employee }}</b>
+    </p>
+    <p>
+        <em>Birthdate</em>: <b>{{ employee.birthdate }}</b>
+    </p>
+    <p>
+        <em>Job</em>: <b>{{ employee.job }}</b>
+    </p>
+    <p>
+        <em>Salary</em>: <b>{{ employee.salary }}</b>
+    </p>
+</body>
+</html>

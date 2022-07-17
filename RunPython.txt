@@ -1,1 +1,7 @@
+python -m venv --prompt=hellodjango venv
+
+. venv\Scripts\activate
+
+pip install django
+
 python manage.py runserver
